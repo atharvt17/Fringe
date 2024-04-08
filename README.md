@@ -86,5 +86,15 @@ To install and run Fringe locally on your machine, follow these steps:
 - **Frontend**: HTML, TailWind CSS, and JavaScript for creating a dynamic and responsive user interface.
 - **Backend**: Django for managing data and user authentication.
 
+## Using Zegocloud UI Kit for Meeting Screen
+
+For the meeting screen UI, we have utilized Zegocloud UI Kit. To integrate it into your Fringe application, follow these steps:
+
+1. **Create an Account on Zegocloud**: Visit [Zegocloud](https://www.zegocloud.com/) and create an account if you haven't already.
+
+2. **Obtain App ID and Secret Server Key**: Once logged in to your Zegocloud account, navigate to the developer dashboard and create a new application. Obtain the App ID and Secret Server Key provided by Zegocloud.
+
+3. **Update `meetingscreen.html`**: In your Fringe project, locate the `meetingscreen.html` file in the `fringe/templates` directory. Update the `AppID` and `SecretKey` placeholders with the App ID and Secret Server Key obtained from Zegocloud.
+
 
 Ready to ditch the DMs and Fringe it out? Join us now!
