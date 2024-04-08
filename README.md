@@ -1,6 +1,6 @@
 # Fringe: Ditch the DMs, Fringe it out!
 
-![Fringe Logo](https://github.com/atharvt17/Fringe_varcel/blob/main/vdzcall/fringe/static/images/Vectorfavicon.png)
+![Fringe Logo](https://raw.githubusercontent.com/Fringe_varcel/vdzcall/main/fringe/static/images/logo.png)
 
 Welcome to **Fringe** - the ultimate solution for seamless video conferencing! Say goodbye to traditional direct messages and embrace the power of **Fringe** for your communication needs.
 
