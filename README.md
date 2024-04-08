@@ -98,3 +98,5 @@ For the meeting screen UI, we have utilized Zegocloud UI Kit. To integrate it in
 
 
 Ready to ditch the DMs and Fringe it out? Join us now!
+
+Feel free to explore the code and contribute to improving the project!
