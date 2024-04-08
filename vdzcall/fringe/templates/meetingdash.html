@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Fringe || Dashboard</title>
+    <link
+      rel="icon"
+      href="{% static 'images/Vectorfavicon.png' %}"
+      type="image/png"
+    />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex flex-col px-8 pt-7 pb-20 bg-white max-md:px-5">
+      <div
+        class="flex gap-5 justify-between items-start text-xs font-bold text-white max-md:flex-wrap max-md:max-w-full"
+      >
+        <img
+          loading="lazy"
+          srcset="
+            https://cdn.builder.io/api/v1/image/assets/TEMP/545571a585b2bceaa4089f33dcf70238b7bb3c0d2e12acedf605bac0efdb534f?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=100   100w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/545571a585b2bceaa4089f33dcf70238b7bb3c0d2e12acedf605bac0efdb534f?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=200   200w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/545571a585b2bceaa4089f33dcf70238b7bb3c0d2e12acedf605bac0efdb534f?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=400   400w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/545571a585b2bceaa4089f33dcf70238b7bb3c0d2e12acedf605bac0efdb534f?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=800   800w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/545571a585b2bceaa4089f33dcf70238b7bb3c0d2e12acedf605bac0efdb534f?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=1200 1200w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/545571a585b2bceaa4089f33dcf70238b7bb3c0d2e12acedf605bac0efdb534f?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=1600 1600w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/545571a585b2bceaa4089f33dcf70238b7bb3c0d2e12acedf605bac0efdb534f?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=2000 2000w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/545571a585b2bceaa4089f33dcf70238b7bb3c0d2e12acedf605bac0efdb534f?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&
+          "
+          class="shrink-0 max-w-full aspect-[3.33] w-[184px]"
+        />
+        <button
+          class="justify-center px-10 py-5 mt-2.5 rounded-2xl shadow-lg max-md:px-5"
+          style="
+            background: rgb(145, 129, 244);
+            background: linear-gradient(
+			    110deg,
+				rgba(145, 129, 244, 1) 33%,
+				rgba(80, 56, 237, 1) 100%
+			);
+            "
+        >
+          Log Out
+        </button>
+      </div>
+      <div
+        class="self-center mt-14 w-full max-w-[1432px] max-md:mt-10 max-md:max-w-full"
+      >
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div class="flex flex-col w-[62%] max-md:ml-0 max-md:w-full">
+            <div
+              class="flex flex-col self-stretch my-auto text-6xl max-md:mt-10 max-md:max-w-full max-md:text-4xl"
+            >
+              <div
+                class="font-bold text-black max-md:max-w-full max-md:text-4xl"
+              >
+              <p>Welcome {{ fname }}</p>
+              </div>
+              <div
+                class="mt-32 font-bold text-black max-md:mt-10 max-md:max-w-full max-md:text-4xl"
+              >
+                Fun-filled video calls and meetups for all occasions!
+              </div>
+              <div
+                class="mt-12 text-xl font-bold text-black max-md:mt-10 max-md:max-w-full"
+              >
+                Fringe delivers seamless, secure video calls and gatherings for
+                everyone, accessible on any device!
+              </div>
+              <div
+                class="flex gap-5 mt-16 text-xl max-md:flex-wrap max-md:mt-10"
+              >
+                <div
+                  class="flex flex-auto gap-2 justify-center px-6 py-2.5 font-bold text-white rounded-3xl max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/e892ccb76907f91c93fadbb4a282e3eafb186649522bcd557fc2b05082e9f6c9?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=100   100w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/e892ccb76907f91c93fadbb4a282e3eafb186649522bcd557fc2b05082e9f6c9?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=200   200w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/e892ccb76907f91c93fadbb4a282e3eafb186649522bcd557fc2b05082e9f6c9?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=400   400w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/e892ccb76907f91c93fadbb4a282e3eafb186649522bcd557fc2b05082e9f6c9?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=800   800w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/e892ccb76907f91c93fadbb4a282e3eafb186649522bcd557fc2b05082e9f6c9?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=1200 1200w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/e892ccb76907f91c93fadbb4a282e3eafb186649522bcd557fc2b05082e9f6c9?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=1600 1600w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/e892ccb76907f91c93fadbb4a282e3eafb186649522bcd557fc2b05082e9f6c9?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=2000 2000w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/e892ccb76907f91c93fadbb4a282e3eafb186649522bcd557fc2b05082e9f6c9?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&
+                    "
+                    class="shrink-0 mix-blend-darken aspect-[0.97] w-[31px]"
+                  />
+                  <button class="flex-auto my-auto text-white rounded-2xl"
+                  style="
+                    background: rgb(145, 129, 244);
+                    background: linear-gradient(
+                        110deg,
+                        rgba(145, 129, 244, 1) 33%,
+                        rgba(80, 56, 237, 1) 100%
+                    );
+                    "
+                  >Create a Fringe</button>
+                </div>
+                <div
+                  class="flex flex-auto gap-3.5 py-3 font-light text-black bg-white rounded-3xl border border-black border-solid"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/da42a2c8276ed9c8718a3fb65ba7a71851f8dd2025c9adcd1d2ec89a4807dbaf?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=100   100w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/da42a2c8276ed9c8718a3fb65ba7a71851f8dd2025c9adcd1d2ec89a4807dbaf?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=200   200w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/da42a2c8276ed9c8718a3fb65ba7a71851f8dd2025c9adcd1d2ec89a4807dbaf?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=400   400w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/da42a2c8276ed9c8718a3fb65ba7a71851f8dd2025c9adcd1d2ec89a4807dbaf?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=800   800w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/da42a2c8276ed9c8718a3fb65ba7a71851f8dd2025c9adcd1d2ec89a4807dbaf?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=1200 1200w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/da42a2c8276ed9c8718a3fb65ba7a71851f8dd2025c9adcd1d2ec89a4807dbaf?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=1600 1600w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/da42a2c8276ed9c8718a3fb65ba7a71851f8dd2025c9adcd1d2ec89a4807dbaf?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&width=2000 2000w,
+                      https://cdn.builder.io/api/v1/image/assets/TEMP/da42a2c8276ed9c8718a3fb65ba7a71851f8dd2025c9adcd1d2ec89a4807dbaf?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&
+                    "
+                    class="shrink-0 aspect-[1.49] w-[45px]"
+                  />
+                  <input id="roomCodeInput" type="text" class="flex-auto my-auto" placeholder="Enter Room Code" />
+                  <button onclick="submitRoomCode()" class="flex-auto my-auto text-white rounded-2xl"
+                    style="
+                      background: rgb(145, 129, 244);
+                      background: linear-gradient(
+                        110deg,
+                        rgba(145, 129, 244, 1) 33%,
+                        rgba(80, 56, 237, 1) 100%
+                      );
+                    "
+                  >
+                    Join
+                  </button>
+                  <button onclick="submitRoomCode()" class="flex-auto my-auto text-white rounded-2xl"
+                  style="
+                    background: rgb(145, 129, 244);
+                    background: linear-gradient(
+                      110deg,
+                      rgba(145, 129, 244, 1) 33%,
+                      rgba(80, 56, 237, 1) 100%
+                    );
+                  "
+                  >
+                  Submit
+                </button>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
+            <div
+              class="flex flex-col grow text-black max-md:mt-10 max-md:max-w-full"
+            >
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/11cea849d766381786b335f3dca20cd1b679811f67d0e9c17373ff428fb36d26?apiKey=a6cf1fe6d0e3423fa489ae9b1432ae5e&"
+                class="w-full aspect-square max-md:max-w-full"
+              />
+              <div class="self-center mt-2.5 text-3xl font-bold">
+                Create a Fringe
+              </div>
+              <div class="mx-6 mt-5 text-xl max-md:mr-2.5 max-md:max-w-full">
+                Generate a link to share with those you wish to connect with.
+                Click 'Create a Fringe' to get started.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Function to handle submitting room code
+      function submitRoomCode() {
+        var roomCode = document.getElementById("roomCodeInput").value;
+        // Redirect to the meeting page with room code
+        window.location.href = "/meeting?roomID=" + roomCode;
+      }
+    </script>
+  </body>
+</html>

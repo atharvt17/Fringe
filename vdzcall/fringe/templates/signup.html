@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% load static %}
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Fringe || Sign-Up</title>
+		<link rel="icon" href="{% static 'images/Vectorfavicon.png' %}" type="image/png" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body class="h-screen w-full">
+		<div class="bg-white h-full">
+			<div class="flex gap-5 max-md:flex-col h-full max-md:gap-0">
+				<div
+					class="flex flex-col w-[59%] max-md:ml-0 h-full max-md:w-full"
+				>
+					<div
+						class="flex flex-col grow justify-center items-start px-16 py-20 h-full w-full max-md:px-5 max-md:mt-10 max-md:max-w-full"
+						style="
+							background: rgb(237, 27, 255);
+							background: linear-gradient(
+								160deg,
+								rgba(237, 27, 255, 1) 33%,
+								rgba(20, 30, 255, 1) 100%
+							);
+						"
+					>
+						<img
+							loading="lazy"
+							srcset="
+								https://cdn.builder.io/api/v1/image/assets/TEMP/d35d7497f5ca1e3aa08dbf618d90af424b7c7de5c76765087b6fa481d4fa3b0d?apiKey=069148237ed14c33bd317d2454cce906&width=100   100w,
+								https://cdn.builder.io/api/v1/image/assets/TEMP/d35d7497f5ca1e3aa08dbf618d90af424b7c7de5c76765087b6fa481d4fa3b0d?apiKey=069148237ed14c33bd317d2454cce906&width=200   200w,
+								https://cdn.builder.io/api/v1/image/assets/TEMP/d35d7497f5ca1e3aa08dbf618d90af424b7c7de5c76765087b6fa481d4fa3b0d?apiKey=069148237ed14c33bd317d2454cce906&width=400   400w,
+								https://cdn.builder.io/api/v1/image/assets/TEMP/d35d7497f5ca1e3aa08dbf618d90af424b7c7de5c76765087b6fa481d4fa3b0d?apiKey=069148237ed14c33bd317d2454cce906&width=800   800w,
+								https://cdn.builder.io/api/v1/image/assets/TEMP/d35d7497f5ca1e3aa08dbf618d90af424b7c7de5c76765087b6fa481d4fa3b0d?apiKey=069148237ed14c33bd317d2454cce906&width=1200 1200w,
+								https://cdn.builder.io/api/v1/image/assets/TEMP/d35d7497f5ca1e3aa08dbf618d90af424b7c7de5c76765087b6fa481d4fa3b0d?apiKey=069148237ed14c33bd317d2454cce906&width=1600 1600w,
+								https://cdn.builder.io/api/v1/image/assets/TEMP/d35d7497f5ca1e3aa08dbf618d90af424b7c7de5c76765087b6fa481d4fa3b0d?apiKey=069148237ed14c33bd317d2454cce906&width=2000 2000w,
+								https://cdn.builder.io/api/v1/image/assets/TEMP/d35d7497f5ca1e3aa08dbf618d90af424b7c7de5c76765087b6fa481d4fa3b0d?apiKey=069148237ed14c33bd317d2454cce906&
+							"
+							class="mt-44 ml-12 max-w-full aspect-[0.97] w-[448px] max-md:mt-10"
+						/>
+					</div>
+				</div>
+				<div
+					class="flex flex-col ml-5 w-[41%] max-md:ml-0 max-md:w-full"
+				>
+					<div
+						class="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full"
+					>
+						<div
+							class="flex flex-col px-16 text-xs font-bold max-md:px-5 max-md:max-w-full"
+						><a href="/">
+							<img
+								loading="lazy"
+								srcset="
+									https://cdn.builder.io/api/v1/image/assets/TEMP/a565b8eb9238ab2d8501aab8dde970e53feae58ecf2a79d851c16f6eb2403d91?apiKey=069148237ed14c33bd317d2454cce906&width=100   100w,
+									https://cdn.builder.io/api/v1/image/assets/TEMP/a565b8eb9238ab2d8501aab8dde970e53feae58ecf2a79d851c16f6eb2403d91?apiKey=069148237ed14c33bd317d2454cce906&width=200   200w,
+									https://cdn.builder.io/api/v1/image/assets/TEMP/a565b8eb9238ab2d8501aab8dde970e53feae58ecf2a79d851c16f6eb2403d91?apiKey=069148237ed14c33bd317d2454cce906&width=400   400w,
+									https://cdn.builder.io/api/v1/image/assets/TEMP/a565b8eb9238ab2d8501aab8dde970e53feae58ecf2a79d851c16f6eb2403d91?apiKey=069148237ed14c33bd317d2454cce906&width=800   800w,
+									https://cdn.builder.io/api/v1/image/assets/TEMP/a565b8eb9238ab2d8501aab8dde970e53feae58ecf2a79d851c16f6eb2403d91?apiKey=069148237ed14c33bd317d2454cce906&width=1200 1200w,
+									https://cdn.builder.io/api/v1/image/assets/TEMP/a565b8eb9238ab2d8501aab8dde970e53feae58ecf2a79d851c16f6eb2403d91?apiKey=069148237ed14c33bd317d2454cce906&width=1600 1600w,
+									https://cdn.builder.io/api/v1/image/assets/TEMP/a565b8eb9238ab2d8501aab8dde970e53feae58ecf2a79d851c16f6eb2403d91?apiKey=069148237ed14c33bd317d2454cce906&width=2000 2000w,
+									https://cdn.builder.io/api/v1/image/assets/TEMP/a565b8eb9238ab2d8501aab8dde970e53feae58ecf2a79d851c16f6eb2403d91?apiKey=069148237ed14c33bd317d2454cce906&
+								"
+								class="mx-auto max-w-full aspect-[3.33] w-[325px] max-md:ml-2.5"
+							/>
+							<div
+								class="self-center mt-2 bg-clip-text"
+								style="
+									color: rgb(145, 129, 244);
+									color: linear-gradient(
+										110deg,
+										rgba(145, 129, 244, 1) 33%,
+										rgba(80, 56, 237, 1) 100%
+									);
+								"
+							></a>
+								Ditch the DMs, Fringe it out!
+							</div>
+							<div class="mt-10 text-3xl text-black uppercase">
+								Sign-Up
+							</div>
+							<div>
+								{{error_message}}
+							</div>
+							<form method="POST" action="{% url 'signup_view' %}" id="signupForm" onsubmit="getData(event)">
+							<div
+								class="flex mt-9 whitespace-nowrap relative rounded-2xl bg-violet-100 bg-opacity-80 text-zinc-900 max-md:px-5"
+							>
+								<img
+									loading="lazy"
+									src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a592f3e6a871ed42db10bc4b9f20d0695722c54d3a3fcd5c1e267f84847048a?apiKey=069148237ed14c33bd317d2454cce906&"
+									class="shrink-0 absolute w-6 aspect-square top-1/2 -translate-y-1/2 left-3"
+								/>
+								<input
+									type="text"
+									class="flex-auto gap-1.5 px-12 py-3.5 rounded-2xl my-auto mix-blend-multiply w-full h-full text-lg"
+									name="fullname"
+									id="fullname"
+									placeholder="Full Name"
+								/>
+							</div>
+							<div
+								class="flex mt-9 whitespace-nowrap relative rounded-2xl bg-violet-100 bg-opacity-80 text-zinc-900 max-md:px-5"
+							>
+								<img
+									loading="lazy"
+									src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a592f3e6a871ed42db10bc4b9f20d0695722c54d3a3fcd5c1e267f84847048a?apiKey=069148237ed14c33bd317d2454cce906&"
+									class="shrink-0 absolute w-6 aspect-square top-1/2 -translate-y-1/2 left-3"
+								/>
+								<input type="text" class="flex-auto gap-1.5 px-12 py-3.5 rounded-2xl my-auto mix-blend-multiply w-full h-full text-lg" name="username" id="usernameInput" placeholder="Username" />
+								<div id="usernameValidationMessage" class="mt-2 text-red-500"></div>
+							</div>
+							<div
+								class="flex mt-9 whitespace-nowrap relative rounded-2xl bg-violet-100 bg-opacity-80 text-zinc-900 max-md:px-5"
+							>
+								<img
+									loading="lazy"
+									srcset="
+										https://cdn.builder.io/api/v1/image/assets/TEMP/1c958cffd8cd37b5324aa9ff2dae6ab49f1b3a0641ffe9272a688bb0dd3e77ce?apiKey=069148237ed14c33bd317d2454cce906&width=100   100w,
+										https://cdn.builder.io/api/v1/image/assets/TEMP/1c958cffd8cd37b5324aa9ff2dae6ab49f1b3a0641ffe9272a688bb0dd3e77ce?apiKey=069148237ed14c33bd317d2454cce906&width=200   200w,
+										https://cdn.builder.io/api/v1/image/assets/TEMP/1c958cffd8cd37b5324aa9ff2dae6ab49f1b3a0641ffe9272a688bb0dd3e77ce?apiKey=069148237ed14c33bd317d2454cce906&width=400   400w,
+										https://cdn.builder.io/api/v1/image/assets/TEMP/1c958cffd8cd37b5324aa9ff2dae6ab49f1b3a0641ffe9272a688bb0dd3e77ce?apiKey=069148237ed14c33bd317d2454cce906&width=800   800w,
+										https://cdn.builder.io/api/v1/image/assets/TEMP/1c958cffd8cd37b5324aa9ff2dae6ab49f1b3a0641ffe9272a688bb0dd3e77ce?apiKey=069148237ed14c33bd317d2454cce906&width=1200 1200w,
+										https://cdn.builder.io/api/v1/image/assets/TEMP/1c958cffd8cd37b5324aa9ff2dae6ab49f1b3a0641ffe9272a688bb0dd3e77ce?apiKey=069148237ed14c33bd317d2454cce906&width=1600 1600w,
+										https://cdn.builder.io/api/v1/image/assets/TEMP/1c958cffd8cd37b5324aa9ff2dae6ab49f1b3a0641ffe9272a688bb0dd3e77ce?apiKey=069148237ed14c33bd317d2454cce906&width=2000 2000w,
+										https://cdn.builder.io/api/v1/image/assets/TEMP/1c958cffd8cd37b5324aa9ff2dae6ab49f1b3a0641ffe9272a688bb0dd3e77ce?apiKey=069148237ed14c33bd317d2454cce906&
+									"
+									class="shrink-0 absolute w-6 aspect-square top-1/2 -translate-y-1/2 left-3"
+								/>
+								<input
+									type="text"
+									class="flex-auto gap-1.5 px-12 py-3.5 rounded-2xl my-auto mix-blend-multiply w-full h-full text-lg"
+									name="email"
+									id="email"
+									placeholder="Email Address"
+									oninput="validateEmail()"
+								/>
+							</div>
+							<div id="emailValidationMessage"></div>
+							<div
+								class="flex mt-9 whitespace-nowrap relative rounded-2xl bg-violet-100 bg-opacity-80 text-zinc-900 max-md:px-5"
+							>
+								<img
+									loading="lazy"
+									class="shrink-0 absolute w-6 aspect-square top-1/2 -translate-y-1/2 left-3"
+									src="https://cdn.builder.io/api/v1/image/assets/TEMP/cf7ac098f5db87311adb5bb39ad666714d75de6cb890f8468d9b4fea61602d32?apiKey=069148237ed14c33bd317d2454cce906&"
+								/>
+								<input
+									type="password"
+									class="flex-auto gap-1.5 px-12 py-3.5 rounded-2xl my-auto mix-blend-multiply w-full h-full text-lg"
+									name="password"
+									id="PasswordInput"
+									placeholder="Password"
+								/>
+							</div>
+							<div class="w-full flex justify-center">
+								<button onclick="getData()" type='submit'
+									class="justify-center self-center px-8 py-5 mt-14 text-white rounded-2xl shadow-lg max-md:px-5 max-md:mt-10"
+									style="
+										background: rgb(145, 129, 244);
+										background: linear-gradient(
+											110deg,
+											rgba(145, 129, 244, 1) 33%,
+											rgba(80, 56, 237, 1) 100%
+										);
+									"
+								>
+									Sign Up
+								</button>
+								{% csrf_token %}
+							</div>
+						</div>
+						</form>
+						<div
+							class="flex gap-0 items-center mt-12 text-base text-zinc-900 max-md:flex-wrap max-md:pr-5 max-md:mt-10 w-full flex justify-center"
+						>
+							<img
+								loading="lazy"
+								src="https://cdn.builder.io/api/v1/image/assets/TEMP/00008a10a14a558fb12b8f2910b9b4bcb758fc9cab76774014c26f3ca2469f92?apiKey=069148237ed14c33bd317d2454cce906&"
+								class="shrink-0 self-stretch my-auto max-w-full border border-black border-solid aspect-[100] stroke-[1px] stroke-black w-[104px]"
+							/>
+							<div class="self-stretch bg-clip-text">
+								<span class="font-medium text-zinc-900">
+									Already have an account?
+								</span>
+								<a
+									href="/login"
+									class="font-bold"
+									style="
+										color: rgb(145, 129, 244);
+										color: linear-gradient(
+											110deg,
+											rgba(145, 129, 244, 1) 33%,
+											rgba(80, 56, 237, 1) 100%
+										);
+									"
+									>Sign In</a
+								>
+							</div>
+							<img
+								loading="lazy"
+								src="https://cdn.builder.io/api/v1/image/assets/TEMP/00008a10a14a558fb12b8f2910b9b4bcb758fc9cab76774014c26f3ca2469f92?apiKey=069148237ed14c33bd317d2454cce906&"
+								class="shrink-0 self-stretch my-auto max-w-full border border-black border-solid aspect-[100] stroke-[1px] stroke-black w-[104px]"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			function getData(event) {
+				// Prevent the default form submission behavior
+				event.preventDefault();
+		
+				// Get the values from the input fields
+				var username = document.getElementById("usernameInput").value;
+				var password = document.getElementById("PasswordInput").value;
+				var email = document.getElementById("email").value;
+				
+				// Regular expression for email validation
+				var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+				
+				// Check if the email matches the regex pattern
+				if (emailRegex.test(email)) {
+					console.log("Email is valid:", email);
+					// Display success message on the page
+					document.getElementById("emailValidationMessage").textContent = "Email is valid";
+					document.getElementById("emailValidationMessage").style.color = "green";
+					
+					// If email is valid, proceed with form submission
+					document.getElementById("signupForm").submit();
+				} else {
+					console.log("Invalid email:", email);
+					// Display error message on the page
+					document.getElementById("emailValidationMessage").textContent = "Invalid email address!";
+					document.getElementById("emailValidationMessage").style.color = "red";
+					// Clear the input field
+					document.getElementById("email").value = "";
+				}
+				
+				// Print the values to the console
+				console.log("Username:", username);
+				console.log("Password:", password);
+			}
+
+			function validateEmail() {
+				// Get the email input element
+				var emailInput = document.getElementById("email");
+				// Get the value of the email input field
+				var email = emailInput.value;
+				// Regular expression for email validation
+				var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+				// Check if the email matches the regex pattern
+				if (emailRegex.test(email)) {
+					// If email is valid, display success message
+					document.getElementById("emailValidationMessage").textContent = "Email is valid";
+					document.getElementById("emailValidationMessage").style.color = "green";
+				} else {
+					// If email is invalid, display error message
+					document.getElementById("emailValidationMessage").textContent = "Invalid email address!";
+					document.getElementById("emailValidationMessage").style.color = "red";
+				}
+			}
+			function checkUsername() {
+				var username = document.getElementById("usernameInput").value;
+				fetch(`/check_username/?username=${username}`)
+				.then(response => response.json())
+				.then(data => {
+					if (data.exists) {
+						document.getElementById("usernameValidationMessage").textContent = "Username is already taken";
+						document.getElementById("usernameValidationMessage").style.color = "red";
+					} else {
+						document.getElementById("usernameValidationMessage").textContent = "Username is available";
+						document.getElementById("usernameValidationMessage").style.color = "green";
+					}
+				})
+				.catch(error => {
+					console.error('Error:', error);
+				});
+			}
+			document.getElementById("usernameInput").addEventListener("input", checkUsername);
+		</script>		
+		<script src="" async defer></script>
+	</body>
+</html>
