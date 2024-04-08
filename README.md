@@ -22,6 +22,43 @@ Welcome to **Fringe** - the ultimate solution for seamless video conferencing! S
 4. **Invite Participants**: Share the room code with participants to join your meeting.
 5. **Collaborate**: Enjoy uninterrupted video conferencing with real-time communication, screen sharing, and chat functionality.
 
+## Directory Structure
+vdzcall
+│   db.sqlite3
+│   manage.py
+│   requirements.txt
+│
+├───fringe
+│   │   admin.py
+│   │   apps.py
+│   │   forms.py
+│   │   models.py
+│   │   tests.py
+│   │   urls.py
+│   │   views.py
+│   │   __init__.py
+│   │
+│   ├───static
+│   │   └───images
+│   │           logo.png
+│   │           Vectorfavicon.png
+│   │
+│   └───templates
+│           dashboard.html
+│           index.html
+│           login.html
+│           meetingdash.html
+│           meetingscreen.html
+│           signup.html
+│
+└───vdzcall
+    │   asgi.py
+    │   settings.py
+    │   urls.py
+    │   wsgi.py
+    │   __init__.py
+
+
 ## Installation
 
 To install and run Fringe locally on your machine, follow these steps:
