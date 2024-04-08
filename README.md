@@ -14,6 +14,35 @@ Welcome to **Fringe** - the ultimate solution for seamless video conferencing! S
 - **Customizable Settings**: Adjust audio, video, and other settings to suit your preferences.
 - **Responsive Design**: Access Fringe seamlessly across various devices.
 
+## How to Use
+
+1. **Sign Up/Login**: Visit the Fringe website and sign up for an account. If you already have an account, simply log in.
+2. **Create or Join a Room**: After logging in, create a new room for a video conference or join an existing one using the provided room code.
+3. **Start Your Meeting**: Once inside the room, start your video conference by enabling your camera and microphone.
+4. **Invite Participants**: Share the room code with participants to join your meeting.
+5. **Collaborate**: Enjoy uninterrupted video conferencing with real-time communication, screen sharing, and chat functionality.
+
+## Installation
+
+To install and run Fringe locally on your machine, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   https://github.com/atharvt17/Fringe.git
+   ```
+2. **Navigate to the Directory**:
+   ```bash
+   cd vdzcall
+   ```
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the Development Server**:
+   ```bash
+   http://localhost:8000/
+   ```
+
 ## Technologies Used
 
 - **Frontend**: HTML, TailWind CSS, and JavaScript for creating a dynamic and responsive user interface.
