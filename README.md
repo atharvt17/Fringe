@@ -23,6 +23,7 @@ Welcome to **Fringe** - the ultimate solution for seamless video conferencing! S
 5. **Collaborate**: Enjoy uninterrupted video conferencing with real-time communication, screen sharing, and chat functionality.
 
 ## Directory Structure
+```bash
 vdzcall
 │   db.sqlite3
 │   manage.py
@@ -58,7 +59,7 @@ vdzcall
     │   wsgi.py
     │   __init__.py
 
-
+```
 ## Installation
 
 To install and run Fringe locally on your machine, follow these steps:
